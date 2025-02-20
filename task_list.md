@@ -20,9 +20,12 @@ Env: there are 3 kinds of items: a,b,c
 
 ![alt text](assets/image.png)
 
+- [marl-in-pgg](https://github.com/nicoleorzan/marl-in-pgg/blob/main/src/environments/pgg/pgg_parallel_v0.py) 
+
+
 ## Task
 
-### Data
+### Data (if aimming to deepseek framework in the future)
 - Define the template of translation the state, action, vector into the natural language
 - Get some CoT data on negotiation
 - Find some really world negotiation data for SFT
@@ -36,3 +39,7 @@ Env: there are 3 kinds of items: a,b,c
 - Train the model with the trajectory
 - Evaluate the model with the trajectory (getting rewards)
 - Update the model with the rewards
+
+### Spcecial Senarios
+- Fully cooperative
+- Fully competitive
